@@ -1,0 +1,96 @@
+/*By Anna Xinrui LU, 2017 July 10*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif; 
+}
+
+#header {
+    position:fixed;
+    background-color: white;
+    height: 50px;
+    width: 1500px;
+    margin:0;
+    top:0;
+    z-index: 1;
+
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+#logo {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 40px;
+    width: 170px;
+    float: left;
+}
+.header-section {
+    position: relative;
+    float:left;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size-adjust: 80%; 
+}
+#search {
+    width: 250px;
+    height: 20px;
+    position: relative;
+    top:-23px;
+}
+#search-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-right: 140px;
+}
+
+#menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+.menu-section {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#firstMenu {
+    margin-left: 670px;
+}
+
+#goLanguage {
+    color: white;
+    text-decoration: none;
+}
+#goTumor {
+    color: white;
+    text-decoration: none;
+}
+#goMain {
+    color: white;
+    text-decoration: none;
+}
+#DNA-title{
+    position: relative;
+    top:100px;
+    left: 60px;
+    height: 900px;
+    z-index: 0;
+}
+#gene-img {
+    position: relative;
+    margin-top: 60px;
+    height: 600px;
+    width: 1250px;
+}
+/*By Anna Xinrui LU, 2017 July 10*/

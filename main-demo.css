@@ -1,0 +1,395 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Lato', sans-serif; 
+/*By Anna Xinrui LU, 2017 July 10*/
+}
+#header {
+    position:fixed;
+    background-color: white;
+    height: 50px;
+    width: 1500px;
+    margin:0;
+    z-index: 1;
+
+}
+#logo {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 40px;
+    width: 170px;
+    float: left;
+}
+.header-section {
+    position: relative;
+    float:left;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size-adjust: 80%; 
+}
+#search {
+    width: 250px;
+    height: 20px;
+    position: relative;
+    top:-23px;
+}
+#search-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-right: 140px;
+}
+
+#menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+}
+.menu-section {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.firstMenu {
+    margin-left: 670px;
+}
+
+#about-menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+    visibility: hidden;
+}
+#about-menu a {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 0px;
+    margin-right: 80px;
+    text-decoration: none
+}
+#science-menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+    visibility: hidden;
+}
+#science-menu a {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 0px;
+    margin-right: 80px;
+    text-decoration: none
+}
+#login-menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+    visibility: hidden;
+}
+#login-menu a {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 0px;
+    margin-right: 80px;
+    text-decoration: none
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+#press-menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+    visibility: hidden;
+}
+#press-menu a {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 0px;
+    margin-right: 80px;
+    text-decoration: none
+}
+
+#goTumor {
+    color: white;
+    text-decoration: none;
+}
+#goLanguage {
+    color: white;
+    text-decoration: none;
+}
+#goDNA {
+    color: white;
+    text-decoration: none;
+}
+#intro {
+    position:relative;
+    top: 90px;
+    z-index: 0;
+    height: 640px;
+}
+#nyc-back {
+    width: 1600px;
+    height: 640px;
+    z-index: -1;
+}
+#intro-box {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    z-index: 0;
+}
+#ribbon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 30px;
+    background-color:#395AA5;
+    z-index: 0;
+}
+#intro-title {
+    position: absolute;
+    top: 40px;
+    padding: 30px;
+
+}
+#intro-text {
+    position: absolute;
+    top: 150px;
+    padding: 30px;
+}
+.to-overview {
+    color: #2d6edf;
+    position: relative;
+    top:180px;
+    left:15px;
+}
+
+#project-title {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    padding: 20px;
+    z-index: 0;
+    color: white;
+    font-size: 700%;
+}
+
+#detail {
+    position:relative;
+    top: 90px;
+    z-index: 0;
+}
+#detail-header {
+    width: 1600px;
+    height: 40px;
+    background-color:gainsboro;
+}
+.detail-header-content {
+    color: white;
+    position: relative;
+    float:left;
+    margin-top: 8px;
+    margin-left: 110px;
+    margin-right: 100px;
+}
+#overview {
+    position: relative;
+    padding: 40px 100px 0px 100px;
+    height: 300px;
+    width: 400px;
+}
+#side-img {
+    width: 1500px;
+}
+#details {
+    position: relative;
+    padding: 40px 100px 0px 700px;
+    height: 300px;
+    width: 400px;
+}
+#aspect-img {
+    position: absolute;
+    top:-300px;
+    height: 300px;
+    width: 800px;
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+#video {
+    position: relative;
+    left:100px;
+    height: 300px;
+    width: 1300px;
+}
+
+#faq {
+    position: relative;
+    left:100px;
+    height: 450px;
+    width: 700px;
+}
+.faq-link:hover {
+    text-decoration: underline;
+}
+.fake-link{
+    text-decoration: none;
+    color: white;
+}
+#resource {
+    position: relative;
+    left:100px;
+    height: 400px;
+    width: 1400px;
+}
+#r-individual {
+    left:100px;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    background-color: #395AA5;
+    color: white;
+    border-radius: 5%;
+}
+#r-physician {
+    position: relative;
+    top: -280px;
+    padding: 20px;
+    padding-left: 90px;
+    height: 300px;
+    width: 510px;
+    left: 550px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5%;
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+#contact {
+    position:relative;
+    top: 150px;
+    left:100px;
+    z-index: 0;
+}
+#phone-img {
+    position: relative;
+    top:40px;
+    left:80px;
+    height: 40px;
+    width: 40px;
+}
+#call {
+    position: relative;
+    top:40px;
+    left: 50px;
+}
+#mail-img {
+    position: relative;
+    left: 255px;
+    top:-60px;
+    height: 50px;
+    width: 50px;
+}
+#email {
+    position: relative;
+    left: 230px;
+    top:-65px;
+    height: 50px;
+    width: 50px;
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+#contact-form {
+    position: relative;
+    height:300px;
+    width: 1500px;
+    padding: 20px 100px 20px 0px;
+    margin-left: -100px;
+    background-color: #E8E8E8;
+}
+#contact-title {
+    position: relative;
+    left: 100px;
+}
+.contact-form {
+    position: relative;
+    left: 250px;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 10px;
+    font-size: 120%;
+    background-color: white;
+}
+#submit {
+    border-color: #395AA5;
+    color: #395AA5;
+    border-bottom-style: solid;
+}
+#footer {
+    position:relative;
+    top: 150px;
+    left:100px;
+    width: 1500px;
+    padding: 20px 100px 20px 0px;
+    margin-left: -100px;
+    z-index: 0;
+    height: 200px;
+    background-color: #2F426D;
+    color: white;
+}
+#logo-white {
+    position: relative;
+    right:100px;
+    float: right;
+
+}
+#social-media{
+    position: relative;
+    margin-right: 200px;
+    float: right;
+}
+#info {
+    position: relative;
+    margin-right: 170px;
+    float: right;
+}
+/*By Anna Xinrui LU, 2017 July 10*/

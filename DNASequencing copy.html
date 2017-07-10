@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)file:///Users/annaxlu/LocalDocument/CompleteWebDevelopment/healthCarePrototype_AnnaXLU.html -->
+<html>
+<head>
+    <title>DNA - HealthCare Website Prototype by Anna Xinrui Lu</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="dna%20copy.css" type="text/css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        
+
+</head>
+    
+<body>
+    <div id="header">
+        <img id="logo" src="GenonovaLogo-XRL.png" >
+        <div class="header-section">
+            <input class="header-section"  id="search" type="text" placeholder="Search within our website">
+            <input type="image" class="header-section"  id="search-img" src="search-img.jpeg">
+        </div>
+        
+        <div class="header-section" id="about">About</div>
+        <div class="header-section">Our Science</div>
+        <div class="header-section">Product</div>
+        <div class="header-section"> Portal Login</div>
+        <div class="header-section">Press Room</div>
+        
+    </div>
+    
+    <div id="about-menu">
+        <div class="firstMenu menu-section"><a id="about1" href="#" target="_blank">Technology and Health </a></div>
+        <div class="menu-section"><a id="about2" href="#" target="_blank">Our Mission</a></div>
+        <div class="menu-section"><a id="about3" href="#"target="_blank">Our Team</a> </div>
+    </div>
+    
+    <div id="menu">
+        
+        <div class="firstMenu menu-section"><a id="goMain" href="main-demo-page-AnnaXLU.html" target="_blank">Genonova General </a></div>
+        <div class="menu-section"><a id="goTumor" href="secondary-demo-tumor-AnnaXRL.html" target="_blank">Tumor Grading</a></div>
+        <div class="menu-section"><a id="goLanguage" href="LanguageProcessing.html"target="_blank">Medical Language Processing</a> </div>
+        <div class="menu-section"> DNA Sequencing</div>
+    </div>
+    
+    <div id="DNA-title">
+        <h2>DNA Sequencing</h2>
+        <img id="gene-img" src="gene.png">
+    </div>
+    
+    <script type="text/javascript">
+        $("#about").hover(function() {
+            document.getElementById("menu").style.visibility = "hidden";
+            document.getElementById("about-menu").style.visibility = "visible";
+            document.getElementById("about").style.textDecoration = "underline"; //Color the background paddle into blue might be another choice. 
+        }, function() {
+            document.getElementById("about").style.textDecoration = "none";
+        })
+
+        
+    </script>
+</body>
+</html>

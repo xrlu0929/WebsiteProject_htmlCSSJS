@@ -1,0 +1,191 @@
+/*By Anna Xinrui LU, 2017 July 10*/
+body {
+    margin: 0 !important;
+    padding: 0!important;
+    font-family: 'Lato', sans-serif; 
+    width: 1400px;
+}
+ /*By Anna Xinrui LU, 2017 July 10*/       
+#header {
+    position:fixed;
+    background-color: white;
+    height: 50px;
+    width: 1500px;
+    top:0;
+    z-index: 1;       
+}
+#logo {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 40px;
+    width: 170px;
+    float: left;
+}
+.header-section {
+    position: relative;
+    float:left;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size-adjust: 80%; 
+}
+#search {
+    width: 250px;
+    height: 20px;
+    position: relative;
+    top:-23px;
+}
+#search-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-right: 140px;
+}
+
+#menu {
+    position:fixed;
+    top:50px;
+    background-color: #395AA5;
+    width: 1600px;
+    float:left;
+    height: 40px;
+    z-index: 1;
+}
+.menu-section {
+    color: white;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    position: relative;
+    float:left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#firstMenu {
+    margin-left: 670px;
+}
+#goLanguage {
+    color: white;
+    text-decoration: none;
+}
+#goDNA {
+    color: white;
+    text-decoration: none;
+}
+#goMain {
+    color: white;
+    text-decoration: none;
+}
+#DNA-title{
+    position: relative;
+    top:100px;
+    left: 60px;
+    height: 900px;
+    z-index: 0;
+}
+#grade-img {
+    position: relative;
+    top: 60px;
+    height: 600px;
+    width: 1250px;
+}
+#line1 {
+    position: relative;
+    top:-40px;
+    left: -100px;
+    border: 10px solid orange;
+    width: 55%;
+}
+#grading {
+    position: relative;
+    left:100px;
+}
+.text {
+    height:150px;
+    width: 400px;
+}
+.img-odd {
+    position:relative;
+    left: 700px;
+    top:-150px;
+}
+.second-step {
+    position: relative;
+    left:700px;
+    width:500px;
+}
+.img-even {
+    position:relative;
+    left: 100px;
+    top:-150px;
+}
+#line2 {
+    position: relative;
+    border: 10px solid #395AA5;
+    width: 60%;
+    right: -100px;
+}
+
+#call-to-call {
+    position: relative;
+    top:-30px;
+    left: 140px;
+    font-size: 130%;
+}
+#phone-img {
+    position: relative;
+    top:-40px;
+    left:350px;
+    height: 20px;
+    width: 20px;
+}
+#call {
+    position: relative;
+    top:-80px;
+    left:390px;
+}
+#mail-img {
+    position: relative;
+    top:-115px;
+    left:550px;
+    height: 20px;
+    width: 20px;
+}
+#email {
+    position: relative;
+    left: 600px;
+    top:-155px;
+    height: 50px;
+    width: 50px;
+}
+
+#footer {
+    position:relative;
+    height: 300px;
+    width: 1600px;
+    background-color: #2F426D;
+}
+#info {
+    color:white;
+    position: relative;
+    left:100px;
+    float:left;
+    width: 500px;
+    margin: 10px 200px 0px 0px;
+}
+#social-media {
+    color:white;
+    position: relative;
+    float:left;
+    margin: 10px 100px 0px 0px;
+}
+/*By Anna Xinrui LU, 2017 July 10*/
+#logo-white {
+    position: relative;
+    float:left;
+    margin: 10px 100px 0px 0px;
+}
+.clear {
+    clear: both;
+}
+/*By Anna Xinrui LU, 2017 July 10*/
